@@ -4,10 +4,7 @@ function validatePIN (pin) {
 }
 
 describe("validatePIN", function() {
-  it("Should test if it uses regular expression", () => {
-    assert(validatePIN instanceof RegExp, 'validatePIN should be an instance of RegExp')
-  });
-     
+      
   it("should return False for pins with length other than 4 or 6", () => {
     assert.strictEqual(validatePIN("1"),false, "Wrong output for '1'");
     assert.strictEqual(validatePIN("12"),false, "Wrong output for '12'");
