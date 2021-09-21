@@ -3,6 +3,10 @@ function validatePIN (pin) {
   return /^(\d{4}|\d{6})$/.test(pin)
 }
 
+const chai = require("chai");
+const assert = chai.assert;
+chai.config.truncateThreshold=0;
+
 describe("validatePIN", () => {
       
   it("should return False for pins with length other than 4 or 6", () => {
