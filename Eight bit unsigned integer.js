@@ -1,4 +1,4 @@
-// Implement String#eight_bit_number, which should return true if given object is a number representable by 8 bit unsigned integer (0-255), false otherwise.
+// Implement a function which should return true if given object is a number representable by 8 bit unsigned integer (0-255), false otherwise.
 
 String.prototype.eightBitNumber = function() {
   return /^(25[0-5]|2[0-4]\d|1\d\d|[1-9]\d|\d)$/.test(this)
