@@ -3,7 +3,7 @@ function validatePIN (pin) {
   return /^(\d{4}|\d{6})$/.test(pin)
 }
 
-describe("validatePIN", function() {
+describe("validatePIN", () => {
       
   it("should return False for pins with length other than 4 or 6", () => {
     assert.strictEqual(validatePIN("1"),false, "Wrong output for '1'");
