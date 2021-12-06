@@ -1,3 +1,5 @@
+// https://www.codewars.com/kata/56a4a3d4043c316002000042/discuss
+
 /* Write a regex to validate a 24 hours time string. Criteria:
      1. '01:00' (leading zeros)
      2. Ranging from '00:00' to '23:59' 
