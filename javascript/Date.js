@@ -1,3 +1,5 @@
+// https://www.codewars.com/kata/548db0bd1df5bbf29b0000b7
+
 /* Write a regular expression (regex) that will match a string only if it contains at least one valid date,
    in the format [mm-dd] (that is, a two-digit month, followed by a dash, followed by a two-digit date, surrounded by square brackets).
 */
