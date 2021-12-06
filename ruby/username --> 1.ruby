@@ -8,6 +8,12 @@ Write a simple regex to validate a username. Allowed characters are:
    Length should be between 4 and 16 characters (both included).
 =end
 
+=begin
+def validate_usr(username)
+  /\A[a-z\d_]{4,16}\z/ === username
+end
+=end
+
 def validate_usr(username)
   username.match?(/^[a-z0-9_]{4,16}$/)
 end
