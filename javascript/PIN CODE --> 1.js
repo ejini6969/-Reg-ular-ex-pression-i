@@ -1,4 +1,7 @@
+// https://www.codewars.com/kata/55f8a9c06c018a0d6e000132
+
 // Validate if a PIN CODE is exactly four or six digits long 
+
 function validatePIN (pin) {
   return /^(\d{4}|\d{6})$/.test(pin)
 }
