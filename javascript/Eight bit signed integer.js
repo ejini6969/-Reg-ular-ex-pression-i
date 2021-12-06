@@ -1,3 +1,5 @@
+// https://www.codewars.com/kata/567ed73340895395c100002e
+
 // Implement a function which should return true if given object is a number representable by 8 bit signed integer (-128 to -1 or 0 to 127), false otherwise.
 
 String.prototype.signedEightBitNumber=function(){
